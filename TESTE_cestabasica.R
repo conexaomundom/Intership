@@ -219,7 +219,7 @@ a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item1)]), ]
 
 a4
 
-pdf("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL1")
+png("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL1")
 grid.arrange(a1, a2, a3, a4, ncol=2)
 dev.off()
 
@@ -280,7 +280,7 @@ a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item1)]), ]
 
 a9
 
-pdf("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL2")
+png("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL2")
 grid.arrange(a5, a7, a8, a9, ncol=2)
 dev.off()
 
@@ -327,7 +327,7 @@ a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item1)
 
 a14
 
-pdf("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL3")
+png("/home/conexaomundo/CAFE_PILAO_ALMOFADA_250G_TRADICIONAL3")
 grid.arrange(a10, a12, a14, ncol=2)
 dev.off()
 
@@ -409,7 +409,7 @@ a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item2)]), ]
 
 a4
 
-pdf("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA1")
+png("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA1")
 grid.arrange(a1, a2, a3, a4, ncol=2)
 dev.off()
 
@@ -472,7 +472,7 @@ a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item2)]), ]
 
 a9
 
-pdf("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA2")
+png("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA2")
 grid.arrange(a5, a7, a8, a9, ncol=2)
 dev.off()
 
@@ -535,7 +535,7 @@ a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item2)
 
 a14
 
-pdf("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA3")
+png("/home/conexaomundo/LEITE_UHT_PIRACANJUBA_1LT_INTEGRAL_CTAMPA3")
 grid.arrange(a10, a11, a12, a14, ncol=2)
 dev.off()
 
@@ -611,7 +611,7 @@ a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item3)]), ]
 
 a4
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G1")
+png("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G1")
 grid.arrange(a1, a2, a3, a4, ncol=2)
 dev.off()
 
@@ -673,7 +673,7 @@ a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item3)]), ]
 
 a8
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G3")
+png("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G3")
 grid.arrange(a5, a6, a7, a8, ncol=2)
 dev.off()
 
@@ -736,7 +736,7 @@ a12 <- ggplot(data = b12[which(b12$DescrProduto == prod12[which(prod12 == item3)
 
 a12
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G3")
+png("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G3")
 grid.arrange(a9, a10, a11, a12, ncol=2)
 dev.off()
 
@@ -769,7 +769,7 @@ a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item3)
 
 a14
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G4")
+png("/home/conexaomundo/MARGARINA_CSAL_DELICIA_500G4")
 grid.arrange(a13, a14, ncol=2)
 dev.off()
 
@@ -862,7 +862,7 @@ a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item4)]), ]
 
 a4
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS1")
+png("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS1")
 grid.arrange(a1, a2, a3, a4, ncol=2)
 dev.off()
 
@@ -924,7 +924,7 @@ a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item4)]), ]
 
 a8
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS2")
+png("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS2")
 grid.arrange(a5, a6, a7, a8, ncol=2)
 dev.off()
 
@@ -988,7 +988,7 @@ a12 <- ggplot(data = b12[which(b12$DescrProduto == prod12[which(prod12 == item4)
 
 a12
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS3")
+png("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS3")
 grid.arrange(a9, a10, a11, a12, ncol=2)
 dev.off()
 
@@ -1022,7 +1022,7 @@ a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item4)
 
 a14
 
-pdf("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS4")
+png("/home/conexaomundo/MARGARINA_CSAL_QUALY_500G_MQUS4")
 grid.arrange(a13, a14, ncol=2)
 dev.off()
 
@@ -1365,7 +1365,7 @@ dev.off()
 
 # "MANTEIGA_CSAL_ITACOLOMY_PT_200G"  
 item7 <- "MANTEIGA_CSAL_ITACOLOMY_PT_200G"
-# Algumas estatisticas descritivas sobre o item MACARRAO_IMPERADOR_500G_ESPAGUETE
+# Algumas estatisticas descritivas sobre o item MANTEIGA_CSAL_ITACOLOMY_PT_200G
 banco[which(banco$DescrProduto == item7), ]$precoMedioDia
 summary(as.numeric(banco[which(banco$DescrProduto == item7), ]$precoMedioDia))
 minimo7 <- min(as.numeric(banco[which(banco$DescrProduto == item7), ]$precoMedioDia))
@@ -1382,17 +1382,13 @@ a1 <- ggplot(data = b1[which(b1$DescrProduto == prod1[which(prod1 == item7)]), ]
   labs(subtitle="Companhia Brasileirta de Distribuição estab1", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a1
 
 # estab2 ------------------------------------------------------------------
 y2 <- as.numeric(b2[which(b2$DescrProduto == prod2[which(prod2 == item7)]), ]$precoMedioDia)
 data2 <- b2[which(b2$DescrProduto == prod2[which(prod2 == item7)]), ]$dtEmissao
-# length(data2)/10
-
-# data22 <- c(data2[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
 
 a2 <- ggplot(data = b2[which(b2$DescrProduto == prod2[which(prod2 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b2[which(b2$DescrProduto == prod2[which(prod2 == item7)]), ])), y = y2), size = 0.25) +
@@ -1400,8 +1396,7 @@ a2 <- ggplot(data = b2[which(b2$DescrProduto == prod2[which(prod2 == item7)]), ]
   labs(subtitle="Companhia Brasileirta de Distribuição estab2", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a2
 
@@ -1409,9 +1404,6 @@ a2
 # estab3 ------------------------------------------------------------------
 y3 <- as.numeric(b3[which(b3$DescrProduto == prod3[which(prod3 == item7)]), ]$precoMedioDia)
 data3 <- b3[which(b3$DescrProduto == prod3[which(prod3 == item7)]), ]$dtEmissao
-# length(data3)/10
-
-# data33 <- c(data3[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
 
 a3 <- ggplot(data = b3[which(b3$DescrProduto == prod3[which(prod3 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b3[which(b3$DescrProduto == prod3[which(prod3 == item7)]), ])), y = y3), size = 0.25) +
@@ -1419,18 +1411,13 @@ a3 <- ggplot(data = b3[which(b3$DescrProduto == prod3[which(prod3 == item7)]), ]
   labs(subtitle="Supermercados Manaíra LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a3
 
 # estab4 ------------------------------------------------------------------
-
 y4 <- as.numeric(b4[which(b4$DescrProduto == prod4[which(prod4 == item7)]), ]$precoMedioDia)
 data4 <- b4[which(b4$DescrProduto == prod4[which(prod4 == item7)]), ]$dtEmissao
-# length(data4)/10
-
-# data33 <- c(data3[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
 
 a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b4[which(b4$DescrProduto == prod4[which(prod4 == item7)]), ])), y = y4), size = 0.25) +
@@ -1438,19 +1425,19 @@ a4 <- ggplot(data = b4[which(b4$DescrProduto == prod4[which(prod4 == item7)]), ]
   labs(subtitle="Jacto Comercio de Alimentos LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a4
 
+png("/home/conexaomundo/MANTEIGA_CSAL_ITACOLOMY_PT_200G1")
 grid.arrange(a1, a2, a3, a4, ncol=2)
+dev.off()
+
+
 
 # estab5 ------------------------------------------------------------------
-
 y5 <- as.numeric(b5[which(b5$DescrProduto == prod5[which(prod5 == item7)]), ]$precoMedioDia)
 data5 <- b5[which(b5$DescrProduto == prod5[which(prod5 == item7)]), ]$dtEmissao
-# length(data5)/10
-
 
 a5 <- ggplot(data = b5[which(b5$DescrProduto == prod5[which(prod5 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b5[which(b5$DescrProduto == prod5[which(prod5 == item7)]), ])), y = y5), size = 0.25) +
@@ -1458,17 +1445,13 @@ a5 <- ggplot(data = b5[which(b5$DescrProduto == prod5[which(prod5 == item7)]), ]
   labs(subtitle="Bompreço supermercados LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a5
 
 # estab6 ------------------------------------------------------------------
-
 y6 <- as.numeric(b6[which(b6$DescrProduto == prod6[which(prod6 == item7)]), ]$precoMedioDia)
 data6 <- b6[which(b6$DescrProduto == prod6[which(prod6 == item7)]), ]$dtEmissao
-length(data6)/10
-
 
 a6 <- ggplot(data = b6[which(b6$DescrProduto == prod6[which(prod6 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b6[which(b6$DescrProduto == prod6[which(prod6 == item7)]), ])), y = y6), size = 0.25) +
@@ -1476,17 +1459,13 @@ a6 <- ggplot(data = b6[which(b6$DescrProduto == prod6[which(prod6 == item7)]), ]
   labs(subtitle="Destakão Magazine LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a6
 
 # estab7 ------------------------------------------------------------------
-
 y7 <- as.numeric(b7[which(b7$DescrProduto == prod7[which(prod7 == item7)]), ]$precoMedioDia)
 data7 <- b7[which(b7$DescrProduto == prod7[which(prod7 == item7)]), ]$dtEmissao
-# length(data7)/10
-
 
 a7 <- ggplot(data = b7[which(b7$DescrProduto == prod7[which(prod7 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b7[which(b7$DescrProduto == prod7[which(prod7 == item7)]), ])), y = y7), size = 0.25) +
@@ -1494,17 +1473,13 @@ a7 <- ggplot(data = b7[which(b7$DescrProduto == prod7[which(prod7 == item7)]), ]
   labs(subtitle="Supermercado Latorre LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a7
 
 # estab8 ------------------------------------------------------------------
-
 y8 <- as.numeric(b8[which(b8$DescrProduto == prod8[which(prod8 == item7)]), ]$precoMedioDia)
 data8 <- b8[which(b8$DescrProduto == prod8[which(prod8 == item7)]), ]$dtEmissao
-# length(data8)/10
-
 
 a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b8[which(b8$DescrProduto == prod8[which(prod8 == item7)]), ])), y = y8), size = 0.25) +
@@ -1512,20 +1487,20 @@ a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item7)]), ]
   labs(subtitle="Supermercado Colibris LTDA-EPP", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a8
+
+png("/home/conexaomundo/MANTEIGA_CSAL_ITACOLOMY_PT_200G2")
 grid.arrange(a5, a6, a7, a8, ncol=2)
+dev.off()
+
 
 
 
 # estab9 ------------------------------------------------------------------
-
 y9 <- as.numeric(b9[which(b9$DescrProduto == prod9[which(prod9 == item7)]), ]$precoMedioDia)
 data9 <- b9[which(b9$DescrProduto == prod9[which(prod9 == item7)]), ]$dtEmissao
-# length(data9)/10
-
 
 a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b9[which(b9$DescrProduto == prod9[which(prod9 == item7)]), ])), y = y9), size = 0.25) +
@@ -1533,19 +1508,14 @@ a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item7)]), ]
   labs(subtitle="Comercial de Alimentos E J C LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a9
 
-# grid.arrange(a5, a7, a8, a9, ncol=2)
 
 # estab10 ------------------------------------------------------------------
-
 y10 <- as.numeric(b10[which(b10$DescrProduto == prod10[which(prod10 == item7)]), ]$precoMedioDia)
 data10 <- b10[which(b10$DescrProduto == prod10[which(prod10 == item7)]), ]$dtEmissao
-# length(data10)/10
-
 
 a10 <- ggplot(data = b10[which(b10$DescrProduto == prod10[which(prod10 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b10[which(b10$DescrProduto == prod10[which(prod10 == item7)]), ])), y = y10), size = 0.25) +
@@ -1553,17 +1523,13 @@ a10 <- ggplot(data = b10[which(b10$DescrProduto == prod10[which(prod10 == item7)
   labs(subtitle="Carrefour Comercio e Industria LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a10
 
 # estab11 ------------------------------------------------------------------
-
 y11 <- as.numeric(b11[which(b11$DescrProduto == prod11[which(prod11 == item7)]), ]$precoMedioDia)
 data11 <- b11[which(b11$DescrProduto == prod11[which(prod11 == item7)]), ]$dtEmissao
-# length(data11)/10
-
 
 a11 <- ggplot(data = b11[which(b11$DescrProduto == prod11[which(prod11 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b11[which(b11$DescrProduto == prod11[which(prod11 == item7)]), ])), y = y11), size = 0.25) +
@@ -1571,17 +1537,13 @@ a11 <- ggplot(data = b11[which(b11$DescrProduto == prod11[which(prod11 == item7)
   labs(subtitle="Rede Menor Preço Supermercado LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a11
 
 # estab12 ------------------------------------------------------------------
-
 y12 <- as.numeric(b12[which(b12$DescrProduto == prod12[which(prod12 == item7)]), ]$precoMedioDia)
 data12 <- b12[which(b12$DescrProduto == prod12[which(prod12 == item7)]), ]$dtEmissao
-# length(data12)/10
-
 
 a12 <- ggplot(data = b12[which(b12$DescrProduto == prod12[which(prod12 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b12[which(b12$DescrProduto == prod12[which(prod12 == item7)]), ])), y = y12), size = 0.25) +
@@ -1589,17 +1551,18 @@ a12 <- ggplot(data = b12[which(b12$DescrProduto == prod12[which(prod12 == item7)
   labs(subtitle="Atacadão S.A.", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a12
 
-# estab13 ------------------------------------------------------------------
+png("/home/conexaomundo/MANTEIGA_CSAL_ITACOLOMY_PT_200G3")
+grid.arrange(a9, a10, a11, a12, ncol=2)
+dev.off()
 
+
+# estab13 ------------------------------------------------------------------
 y13 <- as.numeric(b13[which(b13$DescrProduto == prod13[which(prod13 == item7)]), ]$precoMedioDia)
 data13 <- b13[which(b13$DescrProduto == prod13[which(prod13 == item7)]), ]$dtEmissao
-length(data13)/10
-
 
 a13 <- ggplot(data = b13[which(b13$DescrProduto == prod13[which(prod13 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b13[which(b13$DescrProduto == prod13[which(prod13 == item7)]), ])), y = y13), size = 0.25) +
@@ -1607,17 +1570,13 @@ a13 <- ggplot(data = b13[which(b13$DescrProduto == prod13[which(prod13 == item7)
   labs(subtitle="Supermercado e Comercio Varejista Classe A LTDA EPP", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a13
 
 # estab14 ------------------------------------------------------------------
-
 y14 <- as.numeric(b14[which(b14$DescrProduto == prod14[which(prod14 == item7)]), ]$precoMedioDia)
 data14 <- b14[which(b14$DescrProduto == prod14[which(prod14 == item7)]), ]$dtEmissao
-# length(data14)/10
-
 
 a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item7)]), ]) + coord_cartesian(ylim = c(minimo7, maximo7)) +
   geom_line(mapping = aes(x = seq(1, nrow(b14[which(b14$DescrProduto == prod14[which(prod14 == item7)]), ])), y = y14), size = 0.25) +
@@ -1625,12 +1584,15 @@ a14 <- ggplot(data = b14[which(b14$DescrProduto == prod14[which(prod14 == item7)
   labs(subtitle="Comercio Varejista de Alimentos Verde Vale LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Manteiga C/Sal Itacolomy PT 200g", 
-       caption = "Source: midwest")
+       title="Manteiga C/Sal Itacolomy PT 200g")
 
 a14
 
-grid.arrange(a9, a10, a11, a12, a13, a14, ncol=2)
+png("/home/conexaomundo/MANTEIGA_CSAL_ITACOLOMY_PT_200G4")
+grid.arrange(a13, a14, ncol=2)
+dev.off()
+
+
 
 
 
@@ -1638,41 +1600,41 @@ grid.arrange(a9, a10, a11, a12, a13, a14, ncol=2)
 # [1] "FEIJAO_CARIOCA_COMETA_1KG"  
 
 item8 <- "FEIJAO_CARIOCA_COMETA_1KG"
+# Algumas estatisticas descritivas sobre o item FEIJAO_CARIOCA_COMETA_1KG
+banco[which(banco$DescrProduto == item8), ]$precoMedioDia
+summary(as.numeric(banco[which(banco$DescrProduto == item8), ]$precoMedioDia))
+minimo8 <- min(as.numeric(banco[which(banco$DescrProduto == item8), ]$precoMedioDia))
+maximo8 <- max(as.numeric(banco[which(banco$DescrProduto == item8), ]$precoMedioDia))
+###########################################################################
+
+
 
 
 # estab1 ------------------------------------------------------------------
 y1 <- as.numeric(b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ]$precoMedioDia)
 data1 <- b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ]$dtEmissao
-length(data1)/10
 
-# data11 <- c(data1[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
-
-a1 <- ggplot(data = b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ]) +
+a1 <- ggplot(data = b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ])), y = y1), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b1[which(b1$DescrProduto == prod1[which(prod1 == item8)]), ])), y = rep(mean(y1), length(y1))), size = 0.3, col = 2) +
   labs(subtitle="Companhia Brasileirta de Distribuição estab1", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a1
 
 # estab2 ------------------------------------------------------------------
 y2 <- as.numeric(b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ]$precoMedioDia)
 data2 <- b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ]$dtEmissao
-# length(data2)/10
 
-# data22 <- c(data2[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
-
-a2 <- ggplot(data = b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ]) +
+a2 <- ggplot(data = b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ])), y = y2), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b2[which(b2$DescrProduto == prod2[which(prod2 == item8)]), ])), y = rep(mean(y2), length(y2))), size = 0.3, col = 2) +
   labs(subtitle="Companhia Brasileirta de Distribuição estab2", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a2
 
@@ -1680,18 +1642,14 @@ a2
 # estab3 ------------------------------------------------------------------
 y3 <- as.numeric(b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ]$precoMedioDia)
 data3 <- b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ]$dtEmissao
-# length(data3)/10
 
-# data33 <- c(data3[1], rep(" ", 1), data1[12],  rep(" ", 1), data1[23],  rep(" ", 1), data1[34], rep(" ", 1), data1[45], rep(" ", 1), data1[56],  rep(" ", 1), data1[67], rep(" ", 1), data1[78], rep(" ", 6))
-
-a3 <- ggplot(data = b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ]) +
+a3 <- ggplot(data = b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ])), y = y3), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b3[which(b3$DescrProduto == prod3[which(prod3 == item8)]), ])), y = rep(mean(y3), length(y3))), size = 0.3, col = 2) +
   labs(subtitle="Supermercados Manaíra LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a3
 
@@ -1699,59 +1657,52 @@ a3
 
 
 # estab6 ------------------------------------------------------------------
-
 y6 <- as.numeric(b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ]$precoMedioDia)
 data6 <- b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ]$dtEmissao
-length(data6)/10
 
-
-a6 <- ggplot(data = b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ]) +
+a6 <- ggplot(data = b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ])), y = y6), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b6[which(b6$DescrProduto == prod6[which(prod6 == item8)]), ])), y = rep(mean(y6), length(y6))), size = 0.3, col = 2) +
   labs(subtitle="Destakão Magazine LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a6
 
-
+png("/home/conexaomundo/FEIJAO_CARIOCA_COMETA_1KG1")
 grid.arrange(a1, a2, a3, a6, ncol=2)
+dev.off()
+
+
+
+
 
 # estab7 ------------------------------------------------------------------
-
 y7 <- as.numeric(b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ]$precoMedioDia)
 data7 <- b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ]$dtEmissao
-# length(data7)/10
 
-
-a7 <- ggplot(data = b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ]) +
+a7 <- ggplot(data = b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ])), y = y7), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b7[which(b7$DescrProduto == prod7[which(prod7 == item8)]), ])), y = rep(mean(y7), length(y7))), size = 0.3, col = 2) +
   labs(subtitle="Supermercado Latorre LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a7
 
 # estab8 ------------------------------------------------------------------
-
 y8 <- as.numeric(b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ]$precoMedioDia)
 data8 <- b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ]$dtEmissao
-# length(data8)/10
 
-
-a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ]) +
+a8 <- ggplot(data = b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ])), y = y8), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b8[which(b8$DescrProduto == prod8[which(prod8 == item8)]), ])), y = rep(mean(y8), length(y8))), size = 0.3, col = 2) +
   labs(subtitle="Supermercado Colibris LTDA-EPP", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a8
 
@@ -1759,34 +1710,26 @@ a8
 
 
 # estab9 ------------------------------------------------------------------
-
 y9 <- as.numeric(b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ]$precoMedioDia)
 data9 <- b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ]$dtEmissao
-# length(data9)/10
 
-
-a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ]) +
+a9 <- ggplot(data = b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ])), y = y9), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b9[which(b9$DescrProduto == prod9[which(prod9 == item8)]), ])), y = rep(mean(y9), length(y9))), size = 0.3, col = 2) +
   labs(subtitle="Comercial de Alimentos E J C LTDA", 
        y="Preço", 
        x="Dias", 
-       title="Feijão Carioca Cometa 1Kg", 
-       caption = "Source: midwest")
+       title="Feijão Carioca Cometa 1Kg")
 
 a9
 
-# grid.arrange(a5, a7, a8, a9, ncol=2)
 
 
 # estab11 ------------------------------------------------------------------
-
 y11 <- as.numeric(b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ]$precoMedioDia)
 data11 <- b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ]$dtEmissao
-# length(data11)/10
 
-
-a11 <- ggplot(data = b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ]) +
+a11 <- ggplot(data = b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ]) + coord_cartesian(ylim = c(minimo8, maximo8)) +
   geom_line(mapping = aes(x = seq(1, nrow(b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ])), y = y11), size = 0.25) +
   geom_line(mapping = aes(x = seq(1, nrow(b11[which(b11$DescrProduto == prod11[which(prod11 == item8)]), ])), y = rep(mean(y11), length(y11))), size = 0.3, col = 2) +
   labs(subtitle="Rede Menor Preço Supermercado LTDA", 
@@ -1797,7 +1740,11 @@ a11 <- ggplot(data = b11[which(b11$DescrProduto == prod11[which(prod11 == item8)
 
 a11
 
+png("/home/conexaomundo/FEIJAO_CARIOCA_COMETA_1KG2")
 grid.arrange(a7, a8, a9, a11, ncol=2)
+dev.off()
+
+
 
 
 ## UMA TABELA COM ANALISE DESCRITIVA SOBRE O PROFDUTO NOS ESTABELECIMENTOS
